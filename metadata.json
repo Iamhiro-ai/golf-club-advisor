@@ -1,0 +1,6 @@
+{
+  "name": "ゴルフ クラブ アドバイザー",
+  "description": "あなたのスキルレベルとコースタイプに基づいて、最適な14本のゴルフクラブセットをAIが提案します。",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
