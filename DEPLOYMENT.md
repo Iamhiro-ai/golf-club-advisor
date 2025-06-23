@@ -135,3 +135,27 @@ npm run preview
 1. ブラウザのコンソールエラー
 2. ビルドログ
 3. ネットワークタブでのAPI呼び出し 
+
+## 解決方法
+
+### 1. もう一度「main」ブランチにプッシュ
+
+Vercelは「main」ブランチへのプッシュをトリガーに自動デプロイします。  
+**何も変更していなくても、下記コマンドで再プッシュしてください：**
+
+```bash
+git commit --allow-empty -m "Trigger Vercel deploy"
+git push origin main
+```
+
+---
+
+### 2. プッシュ後の流れ
+
+- プッシュが完了すると、Vercelの「Deployments」タブに新しいデプロイが表示されます。
+- 数分待つと「Production」デプロイが完了し、`golf-club-advisor.vercel.app` でアクセスできるようになります。
+
+---
+
+**上記コマンドを実行したら、Vercelの「Deployments」タブを確認してください！**  
+もしエラーや進展があれば、その内容を教えてください。 
